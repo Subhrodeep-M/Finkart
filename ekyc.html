@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ekyc.css">
+</head>
+<body>
+    <div class="login-container" role="main">
+        <div class="login-wrapper">
+            <h1 class="login-title">eKYC</h1>
+            <form class="login-form" action="register.php" method="POST">
+                <div class="input-group">
+                    <label for="name" class="input-label">Name</label>
+                    <input 
+                        type="name" 
+                        id="name" 
+                        name="name"
+                        class="text-input" 
+                        placeholder="John Doe"
+                        required 
+                        autocomplete="name"
+                        aria-required="true"
+                    />
+                </div>
+                <div class="input-group">
+                    <label for="Phone no." class="input-label">Phone No.</label>
+                    <input 
+                        type="phone no." 
+                        id="phone no." 
+                        name="phone no."
+                        class="text-input" 
+                        placeholder="+91 12345 67890" 
+                        required 
+                        autocomplete="phone no."
+                        aria-required="true"
+                    />
+                </div>
+                <div class="input-group">
+                    <label for="email" class="input-label">Email</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email"
+                        class="text-input" 
+                        placeholder="username@gmail.com" 
+                        required 
+                        autocomplete="email"
+                        aria-required="true"
+                    />
+                </div>
+                <div class="input-group">
+                    <label for="password" class="input-label">Bank A/C No.</label>
+                    <div class="password-input-wrapper">
+                        <input 
+                            type="password"
+                            id="password"
+                            name="password"
+                            class="password-text"
+                            placeholder="Password" 
+                            required 
+                            autocomplete="current-password"
+                            aria-required="true"
+                        />
+                        <button 
+                            type="button" 
+                            class="password-toggle"
+                            aria-label="Toggle password visibility"
+                        >
+                            <img 
+                                src="https://cdn.builder.io/api/v1/image/assets/TEMP/d522e2976b5e1fa53d4bfcc9d74ad70afacfa7a19091ec6d09a966bfd17fdecf?placeholderIfAbsent=true&apiKey=a5fc1ccd64e54a31816e3f02696da736" 
+                                alt="" 
+                                width="11" 
+                                height="11"
+                            />
+                        </button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="password" class="input-label">IFSC Code</label>
+                    <div class="password-input-wrapper">
+                        <input 
+                            type="password"
+                            id="password"
+                            name="password"
+                            class="password-text"
+                            placeholder="Password" 
+                            required 
+                            autocomplete="current-password"
+                            aria-required="true"
+                        />
+                    </div>
+                </div>
+                <div class="input-group">
+                    <label for="password" class="input-label">Agent ID</label>
+                    <div class="password-input-wrapper">
+                        <input 
+                            type="ag_id"
+                            id="ag_id"
+                            name="ag_id"
+                            class="ag_id-text"
+                            placeholder="ag_id" 
+                            required 
+                            autocomplete="ag_id"
+                            aria-required="true"
+                        />
+                    </div>
+                </div>
+                <button type="submit" class="signup-button">Submit</button>
+            </form>
+    </div>
+</body>
+</html>

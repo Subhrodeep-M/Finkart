@@ -1,0 +1,128 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.login-container {
+    background-color: rgba(88, 130, 193, 0.28);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    font-family: Montserrat, sans-serif;
+    padding: 6px 58px 0;
+    min-height: 100vh;
+  }
+  
+  .login-card {
+    border-radius: 28px;
+    background-color: rgba(88, 130, 193, 0.28);
+    z-index: 10;
+    display: flex;
+    margin-top: 200px;
+    min-height: 472px;
+    width: 669px;
+    max-width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    padding: 40px 80px 67px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-content {
+    display: flex;
+    min-height: 365px;
+    width: 473px;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 66px 0;
+  }
+  
+  .login-heading {
+    font: 48px Montserrat Alternates, -apple-system, Roboto, Helvetica, sans-serif;
+    margin: 0;
+  }
+  
+  .login-subheading {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    align-self: stretch;
+    margin: 27px 0 0 0;
+  }
+  
+  .login-options {
+    display: flex;
+    margin-top: 27px;
+    align-items: center;
+    gap: 35px;
+    padding: 9px 0;
+  }
+  
+  .login-option-button {
+    border-radius: 7px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
+    padding: 12px 21px;
+    border: 1px solid #bcbec0;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-size: 15px;
+    color: #000;
+    font-weight: 600;
+  }
+  
+  .login-option-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-option-button:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+  }
+  
+  .login-option-icon {
+    aspect-ratio: 0.97;
+    object-fit: contain;
+    object-position: center;
+    width: 34px;
+    border-radius: 28px;
+    margin-bottom: 8px;
+  }
+
+  .register-text {
+    color: #fff;
+    text-align: center;
+    font: 600 14px Montserrat, sans-serif;
+    margin-top: 60px;
+  }
+
+  .register-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.register-link:hover,
+.register-link:focus {
+    opacity: 0.8;
+    text-decoration: underline;
+}

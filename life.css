@@ -1,0 +1,303 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(35, 166, 240, 1);
+}
+
+.insurance-wrapper {
+    background-color: rgba(35, 166, 240, 1);
+    display: flex;
+    padding: 0 0 66px;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  
+  .header-section {
+    background-color: rgba(35, 166, 240, 1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 24px 54px 0 0;
+  }
+  
+  .nav-container {
+    display: flex;
+    max-width: 1731px;
+    align-items: center;
+    gap: 20px;
+    color: var(--light-text-color, #fff);
+    letter-spacing: 0.2px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font: 700 14px Montserrat, sans-serif;
+  }
+  
+  .brand-logo {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: 0.1px;
+    text-decoration: none;
+    color: #fff;
+    font: 600 Montserrat, 'sans-serif';
+    padding: 2px 0 0 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    gap: 40px 71px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 24px;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 0 0 40px;
+  }
+  
+  .auth-section {
+    display: flex;
+    align-items: center;
+    gap: 40px 45px;
+    line-height: 2;
+    margin-right: -10vh;
+  }
+
+  .auth-section a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .cta-button {
+    border-radius: 5px;
+    background: var(--primary-color, #23a6f0);
+    display: flex;
+    gap: 15px;
+    padding: 15px 25px;
+    align-items: center;
+    cursor: pointer;
+    background-color: rgb(69, 110, 163);
+  }
+  
+  .main-content {
+    margin-top: 24px;
+    width: 100%;
+    max-width: 1700px;
+  }
+  
+  .content-grid {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .hero-image {
+    aspect-ratio: 0.83;
+    width: 100%;
+    object-fit: contain;
+  }
+  
+  .insurance-details {
+    display: flex;
+    flex-direction: column;
+    color: var(--light-text-color, #fff);
+    letter-spacing: 0.2px;
+    font: 500 20px Montserrat, sans-serif;
+  }
+  
+  .main-title {
+    color: rgba(255, 255, 255, 1);
+    font-size: 86px;
+    font-weight: 1000;
+    text-align: center;
+    margin: -1vh 0 -2vh -25vh;
+  }
+  
+  .subtitle {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 46px;
+    margin-left: 10vh;
+    font: 800 Montserrat, 'sans-serif';
+    letter-spacing: 2px;   
+  }
+  
+  .description {
+    line-height: 30px;
+    margin-top: 8px;
+    margin-left: 8vh;
+    letter-spacing: .2px;
+    font-size: 15px;
+  }
+  
+  .plan-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 20px;
+    margin-left: 8vh;
+  }
+  
+  .plan-features {
+    line-height: 30px;
+    margin: .5px 62px 0 6vh;
+    font-size: 15px;
+    letter-spacing: .2px;
+  }
+  
+  .price-button {
+    border-radius: 37px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: -50px 0 0 80vh;
+    min-height: 10px;
+    width: 350px;
+    max-width: 100%;
+    color: rgba(35, 166, 240, 1);
+    font-weight: 700;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.1;
+    padding: 24px 30px;
+    cursor: pointer;
+  }
+  
+  .pbutton-text{
+    margin: -50px 0 0 80vh;
+  }
+
+  .terms-section {
+    background-color: rgba(35, 166, 240, 1);
+    width: 100%;
+    padding-left: 80px;
+    overflow: hidden;
+    margin: 73px 0 200px;
+  }
+  
+  .terms-grid {
+    gap: 20px;
+    display: flex;
+  }
+  
+  .terms-content {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat, sans-serif;
+    color: var(--light-text-color, #fff);
+    letter-spacing: 0.2px;
+  }
+  
+  .terms-title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1;
+  }
+  
+  .terms-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 23px;
+  }
+  
+  .terms-image {
+    aspect-ratio: 0.71;
+    object-fit: contain;
+    width: 90%;
+    margin-top: 25px;
+  }
+  
+  @media (max-width: 991px) {
+    .header-section {
+      max-width: 100%;
+      padding-right: 20px;
+    }
+    
+    .nav-container {
+      max-width: 100%;
+    }
+    
+    .nav-links {
+      max-width: 100%;
+      white-space: initial;
+    }
+    
+    .cta-button {
+      padding: 0 20px;
+    }
+    
+    .main-content {
+      max-width: 100%;
+    }
+    
+    .content-grid {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+    
+    .hero-image {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+    
+    .insurance-details {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+    
+    .main-title {
+      max-width: 100%;
+      font-size: 40px;
+    }
+    
+    .subtitle {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+    
+    .description {
+      max-width: 100%;
+    }
+    
+    .plan-features {
+      max-width: 100%;
+      margin-right: 10px;
+    }
+    
+    .price-button {
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+    
+    .terms-section {
+      max-width: 100%;
+      padding-left: 20px;
+      margin-top: 40px;
+    }
+    
+    .terms-grid {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+    }
+    
+    .terms-content {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+    
+    .terms-title {
+      max-width: 100%;
+    }
+    
+    .terms-text {
+      max-width: 100%;
+    }
+    
+    .terms-image {
+      max-width: 100%;
+      margin-top: 40px;
+    }
+  }

@@ -1,0 +1,207 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    font-family: Montserrat, sans-serif;
+}
+
+.login-container {
+    border-radius: 28px;
+    background-color: rgba(88, 130, 193, 0.28);
+    backdrop-filter: blur(10px);
+    display: flex;
+    max-width: 410px;
+    width: 100%;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    padding: 40px 80px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.login-wrapper {
+    display: flex;
+    width: 100%;
+    max-width: 250px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-title {
+    color: #fff;
+    align-self: center;
+    font: 400 24px Montserrat, sans-serif;
+    margin: 0 0 24px 0;
+}
+
+.login-form {
+    align-self: center;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    font: 400 13px Montserrat, sans-serif;
+}
+
+.input-group {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.input-label {
+    color: #fff;
+    margin-bottom: 8px;
+}
+
+.text-input {
+    border-radius: 5px;
+    background-color: #fff;
+    min-height: 32px;
+    width: 100%;
+    color: #333;
+    padding: 8px 16px;
+    border: 1px solid #bcbec0;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+.text-input:focus {
+    outline: none;
+    border-color: #003465;
+    box-shadow: 0 0 0 2px rgba(0, 52, 101, 0.2);
+}
+
+.password-input-wrapper {
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    min-height: 32px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    border: 1px solid #bcbec0;
+    box-sizing: border-box;
+}
+
+.password-text {
+    border: none;
+    background: none;
+    color: #333;
+    width: 100%;
+    margin-right: 8px;
+}
+
+.password-text:focus {
+    outline: none;
+}
+
+.password-toggle {
+    aspect-ratio: 0.92;
+    width: 11px;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.signup-button {
+    border-radius: 7px;
+    background-color: #003465;
+    margin-top: 24px;
+    min-height: 40px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font: 400 16px Montserrat, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover,
+.signup-button:focus {
+    background-color: #004b8f;
+}
+
+.divider-text {
+    color: #fff;
+    text-align: center;
+    margin: 24px 0;
+    font: 400 13px Montserrat, sans-serif;
+}
+
+.social-login {
+    display: flex;
+    width: 100%;
+    gap: 17px;
+    margin-bottom: 24px;
+}
+
+.social-button {
+    border-radius: 7px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 9px 27px;
+    border: 1px solid #bcbec0;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-button:hover,
+.social-button:focus {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.login-text {
+    color: #fff;
+    text-align: center;
+    font: 600 12px Montserrat, sans-serif;
+    margin: 0;
+}
+
+.login-link {
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    transition: opacity 0.3s ease;
+}
+
+.login-link:hover,
+.login-link:focus {
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    .login-container {
+        padding: 30px 20px;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .social-login {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
